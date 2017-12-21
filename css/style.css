@@ -1,0 +1,250 @@
+body {
+	background-color: black;
+	padding-top: 3.5rem;
+	font-family: 'Arial';
+}
+
+.header .container {
+	/*background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 35%,#2c2c2c 45%,#000000 60%,#111111 66%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); */
+}
+
+.main {
+	background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);
+	background: linear-gradient(135deg, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 35%,#2c2c2c 45%,#000000 60%,#111111 66%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); 
+}
+
+h1 {
+	color: #FFE614;
+	font-family: 'Arial';
+	font-size: 2.3rem;
+	text-shadow: 6px 6px 8px rgba(0,0,0,0.5);
+}
+
+p {
+	text-align: center;
+	margin: 1rem auto;
+}
+
+.pz-skewed-box {
+	background-color: #FFE614;
+	transform: skew(0deg, -3deg);
+	border-radius: 2rem;
+	max-width: 20rem;
+}
+
+.pz-skewed-box span:first-of-type {
+	font-size: 1.5rem;
+}
+
+.pz-skewed-box span:last-of-type {
+	font-size: 1.1rem;
+}
+
+.pz-gallery-txt span:first-of-type {
+	color: #E3E4E4;
+	font-size: 3rem;
+}
+
+.pz-gallery-txt span:last-of-type {
+	color: #FFFBDB;
+	font-size: 2.5rem;
+}
+
+.pz-p {
+	transform: skew(0deg, 3deg);
+}
+
+.pz-font-bold {
+	font-weight: 800;
+}
+
+.pz-percent {
+	font-size: 4.5rem;
+}
+
+.pz-videos {
+	background-image: url('../images/background_video.png');
+	background-size: cover;
+}
+
+.pz-audios, .pz-footer {
+	background-color: #FFF;
+}
+
+.pz-ninos {
+	max-width: 100%;
+	padding: 0;
+}
+
+.pz-ninos-img-size {
+	max-width: 1280px;
+}
+
+.pz-audios::after {
+	display: block;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+	margin-top: -36rem;
+	height: 36rem;
+	width: 100%;
+	content: '';
+	z-index: 0;
+}
+
+audio {
+	position: relative;
+	z-index: 1;
+}
+
+.pz-skewed-box-audio {
+	background-color: #FFE614;
+	transform: skew(0deg, -3deg);
+	border-radius: 2rem;
+	max-width: 18rem;
+	position: relative;
+	z-index: 1;
+	font-size: 1rem;
+}
+
+.jumbotron {
+	background-image: url('../images/background_main.jpg');
+	background-size: cover;
+	margin-bottom: 0;
+}
+
+.pz-video-p {
+	max-width: 640px;
+	max-height: 360px;
+}
+
+.pz-video-origen {
+	max-width: 853px;
+	max-height: 480px;
+}
+
+.pz-video-s, .pz-gallery-s {
+	max-width: 320px;
+	height: auto;
+}
+
+.pz-origen-txt {
+	font-size: 5rem;
+	color: white;
+}
+
+.pz-form-1 {
+	text-align: initial;
+	font-size: 3rem;
+	line-height: 3.625rem;
+	font-weight: 800;
+	color: #403E26;
+}
+
+.pz-form-2 {
+	text-align: initial;
+	font-size: 2.25rem;
+	line-height: 2.68rem;
+	font-weight: 600;	
+	color: #505050;
+}
+
+.pz-form-3 {
+	text-align: initial;
+	font-size: 3rem;
+	line-height: 3.625rem;
+	font-weight: 600;
+	color: #403E26;
+}
+
+.pz-form-4 {
+	font-size: 2.25rem;
+	line-height: 2rem;
+	font-weight: 800;
+}
+
+.pz-formulario label {
+	margin-top: .6rem;
+}
+
+.pz-button {
+	margin-top: 1rem;
+}
+
+.pz-footer p {
+	line-height: 29px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.pz-footer span {
+	font-weight: 800;
+}
+
+.pz-redes-sociales img {
+	padding: 2px;
+	max-width: 60px;
+}
+
+@media screen and (max-width: 800px) {
+	.pz-form-1 {
+		font-size: 1.875rem;
+		line-height: 2rem;
+	}
+	.pz-form-2, .pz-form-4 {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.pz-form-3 {
+		font-size: 1.875rem;
+		line-height: 1.9rem;
+	}
+	.pz-footer p {
+		line-height: 19px;
+		font-size: 16px;
+	}
+	.pz-redes-sociales img {
+		max-width: 45px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.pz-form-1, .pz-form-2, .pz-form-3, .pz-form-4 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.pz-gallery-txt span:first-of-type {
+		font-size: 1.5rem;
+	}
+	.pz-gallery-txt span:last-of-type {
+		font-size: 1.25rem;
+	}
+	.pz-skewed-box-audio {
+		font-size: .9rem;
+	}
+	.pz-origen-txt {
+		font-size: 2.5rem;
+	}
+	.pz-button {
+		width: 100%;
+	}
+	.pz-logo-minminas {
+		min-width: 500px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.pz-img-col {
+		max-width: 100%;
+	}
+	.pz-logo-minminas {
+		min-width: 300px;
+	}
+}
+
+@media screen and (min-width: 370px) and (max-width: 800px) {
+	.pz-video-s, .pz-gallery-s {
+		min-width: 320px;
+	}
+}
